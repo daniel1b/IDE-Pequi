@@ -289,6 +289,7 @@ public class SerialPlotter extends AbstractMonitor {
     sendButton = new JButton(tr("Send"));
     openPidButton = new JButton("set K's");
     
+    //adiconar os controles aqui
     openPidButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         JFrame frame = new JFrame("Interface Calib. PID");
